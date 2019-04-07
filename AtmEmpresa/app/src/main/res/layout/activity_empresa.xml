@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.cursoandroid.com.atmempresa.empresaActivity"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empresa_detalhe"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:paddingTop="25dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Os quatro primeiros capítulos apresentam os fundamentos da computação, da programação de computadores e da linguagem de programação C. As análises estão inseridas em uma introdução à programação de computadores usando um método estruturado. Os principiantes em programação que fizeram nossos cursos nos informaram que o material desses capítulos apresenta uma base sólida para as técnicas mais avançadas da linguagem C. Normalmente os programadores experientes lêem rapidamente os quatro primeiros capítulos e então descobrem que o modo com o qual o assunto é tratado no Capítulo 5 é rigoroso e fascinante. Eles gostam particularmente da maneira detalhada como são analisados os ponteiros, strings, arquivos e estruturas de dados nos capítulos que se seguem.      Muitos programadores experientes nos disseram que aprovam nosso modo de apresentar a programação estruturada. Freqüentemente eles costumam programar em uma linguagem estruturada como o Pascal, mas, por nunca terem sido apresentados formalmente à programação estruturada, não escrevem o melhor código possível. À medida que aprenderem C com este livro, eles poderão aprimorar seu estilo de programação. Dessa forma, quer você seja um principiante, quer seja um programador experiente, há muito aqui para informá-lo, diverti-lo e estimulá-lo. "
+            android:id="@+id/textView2"
+            android:padding="@dimen/padding_padra"
+            android:background="#c7c6c6" />
+    </ScrollView>
+</RelativeLayout>
