@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cadastro Pessoa</string>
+    <string name="text_tipo">Pessoa Física</string>
+    <string name="texto_tipo2">Pessoa Jurídica</string>
+</resources>
