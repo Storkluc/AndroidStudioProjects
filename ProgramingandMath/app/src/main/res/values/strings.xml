@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Programing and Math</string>
     <string name="text_titulo">LogMat A Aventura</string>
+    <string name="text_play">Um novo vírus de computador foi descoberto. Sua missão é programar um robo para te ajudar a acabar com essa ameça. Vamos começar!</string>
 </resources>
