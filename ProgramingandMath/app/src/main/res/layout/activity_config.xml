@@ -8,6 +8,79 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="programingandmath.cursoandroid.com.programingandmath.ConfigActivity"
-    android:background="@drawable/interfacetecconfig">
+    android:background="@drawable/Interfacecastelo">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Som  "
+        android:id="@+id/somId"
+        android:checked="true"
+        android:showText="true"
+        android:singleLine="true"
+        android:splitTrack="true"
+        android:textSize="20dp"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Configurações"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daltonismo  "
+        android:id="@+id/botaoDaltonico"
+        android:checked="false"
+        android:textSize="20dp"
+        android:showText="true"
+        android:splitTrack="true"
+        android:singleLine="true"
+        android:layout_below="@+id/somId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informar Problema"
+        android:id="@+id/botaoInformarProblema"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajuda no Jogo  "
+        android:id="@+id/ajudaId"
+        android:layout_below="@+id/botaoDaltonico"
+        android:checked="true"
+        android:singleLine="true"
+        android:showText="true"
+        android:splitTrack="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sobre LOGMATH"
+        android:id="@+id/sobreId"
+        android:layout_below="@+id/botaoInformarProblema"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:textColor="#030000" />
 
 </RelativeLayout>

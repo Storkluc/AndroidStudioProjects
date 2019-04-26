@@ -8,7 +8,34 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="programingandmath.cursoandroid.com.programingandmath.MainActivity"
-    android:background="@drawable/interfacetec"
-    android:backgroundTintMode="src_over">
+    android:backgroundTintMode="src_over"
+    android:background="@drawable/Interfacecastelo">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:id="@+id/configId"
+        android:background="@drawable/botaoconfg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/titulo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/playId"
+        android:layout_below="@+id/configId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/comecar" />
 
 </RelativeLayout>

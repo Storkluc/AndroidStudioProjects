@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.io.StringWriter;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText caixaTexto;

@@ -11,7 +11,7 @@ public class MainActivity extends Activity {
 
     private ImageView botaoPlay;
     private ImageView boatoConfg;
-    private ImageView botaoQuest;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 
         botaoPlay = (ImageView) findViewById(R.id.playId);
         boatoConfg = (ImageView) findViewById(R.id.configId);
-        botaoQuest = (ImageView) findViewById(R.id.questId);
+
 
         botaoPlay.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,13 +33,6 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ConfigActivity.class));
-            }
-        });
-
-        botaoQuest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, QuestActivity.class));
             }
         });
 

@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".PlayActivity" />
         <activity android:name=".ConfigActivity" />
-        <activity android:name=".QuestActivity"></activity>
+        <activity android:name=".QuestActivity" />
+        <activity android:name=".TecnologicActivity"></activity>
     </application>
 
 </manifest>
