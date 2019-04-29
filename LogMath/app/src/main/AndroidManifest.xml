@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ConfigActivity" />
-        <activity android:name="faseslogmath.com.logmath.ComecarActivity"></activity>
+        <activity android:name="faseslogmath.com.logmath.ComecarActivity" />
+        <activity android:name=".InformarProblemaActivity"></activity>
     </application>
 
 </manifest>

@@ -7,6 +7,70 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="faseslogmath.com.logmath.ComecarActivity">
+    tools:context="faseslogmath.com.logmath.ComecarActivity"
+    android:background="@drawable/interfacepaginainicial">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Stagio 01"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chegue ao castelo."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Use as setas a baixo para indicar o caminho que deve ser seguido."
+        android:id="@+id/textView4"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/botaoesquerda"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="@dimen/imgSetas"
+        android:layout_height="@dimen/imgSetas"
+        android:id="@+id/imageView2"
+        android:background="@drawable/botaobaixo"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="@dimen/imgSetas"
+        android:layout_height="@dimen/imgSetas"
+        android:id="@+id/imageView4"
+        android:background="@drawable/botaocima"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="@dimen/imgSetas"
+        android:layout_height="@dimen/imgSetas"
+        android:id="@+id/imageView5"
+        android:background="@drawable/botaodireita"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/textView4" />
 
 </RelativeLayout>

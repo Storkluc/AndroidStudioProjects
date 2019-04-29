@@ -10,8 +10,8 @@ import faseslogmath.com.logmath.ComecarActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView botaoconfig;
-    ImageView botaocomecar;
+    private ImageView botaoconfig;
+    private ImageView botaocomecar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
