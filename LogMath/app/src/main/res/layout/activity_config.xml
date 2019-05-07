@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="logmath.com.logmath.ConfigActivity"
-    android:background="@drawable/interfaceconfiguracao">
+    android:background="@drawable/faseum">
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,60 +20,13 @@
         android:layout_alignParentStart="true"
         android:textStyle="bold" />
 
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Som  "
-        android:id="@+id/somId"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="65dp"
-        android:checked="false"
-        android:clickable="false"
-        android:enabled="true"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:showText="true"
-        android:singleLine="false"
-        android:splitTrack="false"
-        android:textSize="20dp" />
-
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Daltonismo  "
-        android:id="@+id/daltonismoId"
-        android:layout_below="@+id/somId"
-        android:layout_alignParentStart="true"
-        android:checked="false"
-        android:enabled="true"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:showText="true"
-        android:singleLine="true"
-        android:splitTrack="true"
-        android:textSize="20dp" />
-
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ajuda no Jogo  "
-        android:id="@+id/ajudaId"
-        android:layout_below="@+id/daltonismoId"
-        android:layout_alignParentStart="true"
-        android:checked="true"
-        android:textSize="20dp"
-        android:showText="true"
-        android:singleLine="true"
-        android:splitTrack="true" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Informar Problema"
         android:id="@+id/informarproblemaId"
-        android:layout_marginBottom="106dp"
-        android:layout_above="@+id/sobreId"
+        android:layout_alignBaseline="@+id/sobreId"
+        android:layout_alignBottom="@+id/sobreId"
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -83,6 +36,6 @@
         android:text="Sobre LogMath"
         android:id="@+id/sobreId"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
