@@ -10,4 +10,19 @@
     tools:context="faseslogmath.com.logmath.ComecarActivity"
     android:background="@drawable/mapa">
 
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/botaocontinuar" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/botaovoltar" />
 </RelativeLayout>
