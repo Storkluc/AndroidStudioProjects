@@ -58,25 +58,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/ovelhaId"
-        android:layout_below="@+id/macacoId"
+        android:background="@drawable/ovelha"
+        android:layout_alignBottom="@+id/vacaId"
         android:layout_alignLeft="@+id/leaoId"
-        android:layout_alignStart="@+id/leaoId"
-        android:background="@drawable/ovelha" />
+        android:layout_alignStart="@+id/leaoId" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/vacaId"
+        android:background="@drawable/vaca"
         android:layout_below="@+id/macacoId"
-        android:layout_alignRight="@+id/gatoId"
-        android:layout_alignEnd="@+id/gatoId"
-        android:background="@drawable/vaca" />
+        android:layout_alignLeft="@+id/macacoId"
+        android:layout_alignStart="@+id/macacoId" />
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView8"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2019"
+        android:id="@+id/textView"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/direitos" />
+        android:textColor="#73cb58"
+        android:textStyle="bold" />
+
 </RelativeLayout>
