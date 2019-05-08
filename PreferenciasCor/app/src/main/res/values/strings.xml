@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PreferenciasCor</string>
+    <string name="texto_titulo">Escolha uma cor de fundo</string>
+    <string name="botao_salvar">Salvar</string>
+</resources>

@@ -25,7 +25,6 @@
         android:layout_height="wrap_content"
         android:text="Informar Problema"
         android:id="@+id/informarproblemaId"
-        android:layout_alignBaseline="@+id/sobreId"
         android:layout_alignBottom="@+id/sobreId"
         android:layout_alignParentStart="true" />
 
@@ -35,7 +34,69 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Sobre LogMath"
         android:id="@+id/sobreId"
+        android:textColor="#ffffff"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Som/Música"
+        android:id="@+id/checkBox"
+        android:checked="false"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupId"
+        android:layout_above="@+id/informarproblemaId"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acromático"
+            android:id="@+id/acromaticoId"
+            android:textColor="#ffffff"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deuteranopia"
+            android:id="@+id/deuteranopiaId"
+            android:textColor="#ffffff"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protanopia"
+            android:id="@+id/protanopiaId"
+            android:textColor="#ffffff"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tritanopia"
+            android:id="@+id/tritanopiaId"
+            android:textColor="#ffffff"
+            android:checked="false" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Daltonismo"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/radioGroupId"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
 </RelativeLayout>
