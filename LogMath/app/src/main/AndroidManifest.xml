@@ -18,7 +18,8 @@
         <activity android:name=".ConfigActivity" />
         <activity android:name="faseslogmath.com.logmath.ComecarActivity" />
         <activity android:name=".InformarProblemaActivity" />
-        <activity android:name=".SobreLogMath"></activity>
+        <activity android:name=".SobreLogMath" />
+        <activity android:name="faseslogmath.com.logmath.FaseUm"></activity>
     </application>
 
 </manifest>

@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class ConfigActivity extends Activity {
@@ -18,7 +19,7 @@ public class ConfigActivity extends Activity {
     private RadioGroup radioGroup;
     private RadioButton radioButtonEscolhido;
     private Button botaoSalvar;
-    private CheckBox som;
+    private TextView botaoSobre;
     private static final String ARQ_PREFERENCES = "ArqPreferences";
 
     @Override
@@ -29,6 +30,7 @@ public class ConfigActivity extends Activity {
         informarProblema = findViewById(R.id.informarproblemaId);
         radioGroup = findViewById(R.id.radioGroupId);
         botaoSalvar = findViewById(R.id.botaoSalvarId);
+
 
         informarProblema.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,11 +53,19 @@ public class ConfigActivity extends Activity {
                     String tipoSelecionado = radioButtonEscolhido.getText().toString();
                     editor.putString("tipoEscolhido",radioButtonEscolhido.getText().toString());
                     editor.commit();
+                    Toast.makeText(ConfigActivity.this,"Opção Selecionada",Toast.LENGTH_SHORT).show();
 
 
                 }
             }
         });
+
+        /*botaoSobre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ConfigActivity.this,SobreLogMath.class));
+            }
+        });*/
 
     }
 }

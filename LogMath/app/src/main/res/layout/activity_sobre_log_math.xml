@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Voltar"
-        android:id="@+id/button"
+        android:id="@+id/botaoVoltarInformarProblemaId"
         android:layout_alignBottom="@+id/listView"
         android:layout_alignEnd="@+id/listView" />
 </RelativeLayout>
