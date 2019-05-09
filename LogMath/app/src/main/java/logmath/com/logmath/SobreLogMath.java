@@ -20,7 +20,7 @@ public class SobreLogMath extends AppCompatActivity {
         botaoVoltarInformarProblema.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(SobreLogMath.this, InformarProblemaActivity.class));
+                startActivity(new Intent(SobreLogMath.this, ConfiguracoesActivity.class));
             }
         });
     }

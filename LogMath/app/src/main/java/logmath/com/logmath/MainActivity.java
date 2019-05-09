@@ -6,33 +6,37 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import faseslogmath.com.logmath.ComecarActivity;
+import faseslogmath.com.logmath.Mapa;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView botaoconfig;
-    private ImageView botaocomecar;
+    private ImageView botaoJogar;
+    private ImageView botaoConfig;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        botaocomecar = (ImageView)findViewById(R.id.comecarId);
-        botaoconfig = (ImageView) findViewById(R.id.configId);
+        botaoConfig = findViewById(R.id.botaoConfigId);
+        botaoJogar = findViewById(R.id.botaoJogarId);
 
-        botaocomecar.setOnClickListener(new View.OnClickListener() {
+        botaoConfig.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, ComecarActivity.class));
+                startActivity(new Intent(MainActivity.this,ConfiguracoesActivity.class));
             }
         });
 
-        botaoconfig.setOnClickListener(new View.OnClickListener() {
+        botaoJogar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, ConfigActivity.class));
+                startActivity(new Intent(MainActivity.this, Mapa.class));
             }
         });
+
+
+
     }
 }

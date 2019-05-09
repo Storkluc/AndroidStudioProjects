@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class InformarProblemaActivity extends AppCompatActivity {
 
-    private Button botaoVoltarConfigurações;
+    private Button botaoVoltarConfiguracoes;
 
 
     @Override
@@ -17,12 +17,12 @@ public class InformarProblemaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_informar_problema);
 
-        botaoVoltarConfigurações = findViewById(R.id.botaoVoltarConfiguracoes);
+        botaoVoltarConfiguracoes = findViewById(R.id.botaoVoltarConfiguracoes);
 
-        botaoVoltarConfigurações.setOnClickListener(new View.OnClickListener() {
+        botaoVoltarConfiguracoes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(InformarProblemaActivity.this,ConfigActivity.class));
+                startActivity(new Intent(InformarProblemaActivity.this,ConfiguracoesActivity.class));
             }
         });
 

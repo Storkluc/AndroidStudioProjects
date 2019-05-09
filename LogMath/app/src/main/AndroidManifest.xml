@@ -15,11 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ConfigActivity" />
-        <activity android:name="faseslogmath.com.logmath.ComecarActivity" />
         <activity android:name=".InformarProblemaActivity" />
         <activity android:name=".SobreLogMath" />
-        <activity android:name="faseslogmath.com.logmath.EstagioUm"></activity>
+        <activity android:name="faseslogmath.com.logmath.EstagioUm" />
+        <activity android:name="faseslogmath.com.logmath.Mapa" />
+        <activity android:name=".ConfiguracoesActivity"></activity>
     </application>
 
 </manifest>
