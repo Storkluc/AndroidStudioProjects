@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import logmath.com.logmath.R;
 
-public class FaseUm extends AppCompatActivity {
+public class EstagioUm extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fase_um2);
+        setContentView(R.layout.activity_estagio_um);
     }
 }

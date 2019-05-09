@@ -19,7 +19,7 @@ public class ConfigActivity extends Activity {
     private RadioGroup radioGroup;
     private RadioButton radioButtonEscolhido;
     private Button botaoSalvar;
-    private TextView botaoSobre;
+    private Button botaoSobre;
     private static final String ARQ_PREFERENCES = "ArqPreferences";
 
     @Override
@@ -30,6 +30,7 @@ public class ConfigActivity extends Activity {
         informarProblema = findViewById(R.id.informarproblemaId);
         radioGroup = findViewById(R.id.radioGroupId);
         botaoSalvar = findViewById(R.id.botaoSalvarId);
+        botaoSobre = findViewById(R.id.botaoSobreId);
 
 
         informarProblema.setOnClickListener(new View.OnClickListener() {
@@ -60,12 +61,12 @@ public class ConfigActivity extends Activity {
             }
         });
 
-        /*botaoSobre.setOnClickListener(new View.OnClickListener() {
+        botaoSobre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ConfigActivity.this,SobreLogMath.class));
             }
-        });*/
+        });
 
     }
 }
