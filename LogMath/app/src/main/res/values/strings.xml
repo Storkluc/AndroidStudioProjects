@@ -1,13 +1,3 @@
 <resources>
     <string name="app_name">LogMath</string>
-    <string name="text_configuracoes">Configurações</string>
-    <string name="som">Som/Música</string>
-    <string name="acromatico">Acromático</string>
-    <string name="deuteranopia">Deuteranopia</string>
-    <string name="protanopia">Protanopia</string>
-    <string name="tritanopia">Tritanopia</string>
-    <string name="daltonismo">Daltonismo</string>
-    <string name="salvar">Salvar</string>
-    <string name="sobre_logmath">Sobre LogMath</string>
-    <string name="informar_problema">Informar Problema</string>
 </resources>
