@@ -14,9 +14,6 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/gatoId"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="42dp"
         android:background="@drawable/logo"
         android:contentDescription="TODO" />
 
@@ -41,7 +38,6 @@
         android:id="@+id/gatoId"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignStart="@+id/leaoId"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="76dp"
         android:background="@drawable/gato" />
@@ -53,43 +49,47 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="154dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="172dp"
         android:background="@drawable/leao" />
 
     <ImageView
         android:id="@+id/macacoId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView"
         android:layout_alignTop="@+id/vacaId"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-2dp"
         android:background="@drawable/macaco" />
 
     <ImageView
         android:id="@+id/ovelhaId"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="221dp"
-        android:layout_marginLeft="221dp"
-        android:layout_marginTop="155dp"
+        android:layout_alignTop="@+id/leaoId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/ovelha" />
 
     <ImageView
         android:id="@+id/vacaId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/ovelhaId"
-        android:layout_alignRight="@+id/ovelhaId"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="-5dp"
-        android:layout_marginRight="-5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="334dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
         android:background="@drawable/vaca" />
 
     <TextView
